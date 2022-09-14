@@ -1,0 +1,41 @@
+
+How to use Library files:
+
+Drop in any mixamo rigged model, that was exported in the base pose
+Re-import with the mixamo bone map.
+Drop into scene, make local.
+Open animation player, Animation > Manage Animations > Load Library > library.res
+It's now mapped to the new character!
+
+How to create library files:
+
+On Mixamo:
+Download the Ybot model, import to blender
+Use YBot in mixamo to download all the animations you want
+Default fbx for downlaods, no skin, animation 'in place' preferred.
+
+In Blender:
+Import base YBot
+Import each animation fbx (in another collection for easy visiblity).
+Open Nonlinear animation player
+Name and push down Tpose for the main ybot armiture
+Click the next animation armature, name it's animation, click push down, delete that armature.
+Repeat until all armatures are gone except the source Tpose armature.
+
+In Nonlinear animation player, hit the 'N' key
+A menu will appear on the right.
+Click the drop down to select an animation from a former armature
+Click push down in the NLA to add it to the armature.
+Do this for all the animations.
+Save, check scale, export as glb.
+
+In Godot:
+Bring .GLB into godot filesystem
+Re-import, click "Skeleton3d", bone map drop down, load mixamo bone map.res.
+Drop the .glb into the scene, transfom 0,0,0, save local.
+Go to animation player, (test if you want that it works).
+Click Animation > Manage Animations...
+To the right of Global, click the save icon, save the library.
+
+DONE library now exists.
+
