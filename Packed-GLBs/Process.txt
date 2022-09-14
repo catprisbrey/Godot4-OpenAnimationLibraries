@@ -19,20 +19,19 @@ Import base YBot
 Import each animation fbx (in another collection for easy visiblity).
 Open Nonlinear animation player
 Name and push down Tpose for the main ybot armiture
-Click the next animation armature, name it's animation, click push down, delete that armature.
-Repeat until all armatures are gone except the source Tpose armature.
 
 In Nonlinear animation player, hit the 'N' key
 A menu will appear on the right.
-Click the drop down to select an animation from a former armature
-Click push down in the NLA to add it to the armature.
-Do this for all the animations.
-Save, check scale, export as glb.
+Click the drop down to select an animation from another armature
+Name it's animation, click push down.
+Repeat until all armatures are named and pushed to the base armature.
+Delete all other armitures
+Save, check scale, export as glb. placeholder materials to save space.
 
 In Godot:
 Bring .GLB into godot filesystem
 Re-import, click "Skeleton3d", bone map drop down, load mixamo bone map.res.
-Drop the .glb into the scene, transfom 0,0,0, save local.
+Drop the .glb into the scene, transfom 0,0,0, make local, Save as scene.
 Go to animation player, (test if you want that it works).
 Click Animation > Manage Animations...
 To the right of Global, click the save icon, save the library.
