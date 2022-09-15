@@ -1,5 +1,5 @@
 # Godot4-MixamoLibraries
-Ready-to-use Mixamo libraries to retarget to bones in Godot4
+Ready-to-use Mixamo libraries to retarget to bones in Godot 4
 
 ![Controller Screenshot](https://github.com/pemguin005/Godot4-MixamoLibraries/blob/main/Screenshots/MixamoLib.GIF)
 
@@ -27,3 +27,7 @@ VIDEO TO COME
 
 Explanation and inspiration  originally from FinePointCGI. Additional info can be found in their video about troubleshooting skelelon remapping. This project was inspired entirely by this video.
 https://www.youtube.com/watch?v=NBukd3NmK88
+
+## Support
+
+Support me by checking out my music at bonesinthewalls.bandcamp.com or searching "Bones in the Walls" whereever you stream music.
