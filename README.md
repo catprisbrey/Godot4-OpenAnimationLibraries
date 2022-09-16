@@ -21,6 +21,8 @@ Requires Godot 4.0.13 Alpha or newer
 
 ## Tutorial
 
+A quick demonstration followed by a more indepth tutorial on how to use these libraries.
+
 https://youtu.be/NZpj25eu5BQ 
 
 ## Background
