@@ -21,7 +21,7 @@ Requires Godot 4.0.13 Alpha or newer
 
 ## Tutorial
 
-VIDEO TO COME
+https://youtu.be/NZpj25eu5BQ 
 
 ## Background
 
