@@ -1,0 +1,3 @@
+These GLBs are backups, for future reference just in case.
+
+The YBOT is the unpacked, base model and skeleton these were all based off of. Even if Mixamo goes away, we can still use this rig/skelton to create animations and libraries that will be compatible with Godot retargeting.
