@@ -32,4 +32,4 @@ https://www.youtube.com/watch?v=NBukd3NmK88
 
 ## Support
 
-Support me by checking out my music at bonesinthewalls.bandcamp.com or searching "Bones in the Walls" whereever you stream music.
+Support me by checking out my music at https://bonesinthewalls.bandcamp.com, https://open.spotify.com/artist/3eKiNBKa9Jel0Ev98hcZll?si=dX0koLvrSWarOkSMaEmbmg, or searching "Bones in the Walls" where ever you stream music.
