@@ -3,6 +3,12 @@ Ready-to-use Mixamo libraries to retarget to bones in Godot 4
 
 ![Controller Screenshot](https://github.com/pemguin005/Godot4-MixamoLibraries/blob/main/Screenshots/MixamoLib.GIF)
 
+## UPDATE
+Adobe's terms of service 6.2.E state not to make datasets or databases from their content which this could be seen as. 
+To respect their service, I am removing the libraries. 
+I will continue to provide the Godot bone map, and will create a new tutorial showing how to make your own probject libraries for your own individual games. 
+Perhaps we can make own community open library of open animations. Thanks for your understanding.
+
 ## Features
 
 Mixamo bone map and themed character libraries of Mixamo animations easily remapped to models in Godot that have a typical Mixamo skelelon
