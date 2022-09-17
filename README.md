@@ -18,6 +18,13 @@ Mixamo bone map res file, that can aid in making your own reusable libraries.
 - Godot 4.0.13 Alpha or newer
 - The Mixamo Bone Map.res file included here.
 
+
+# Tutorial
+
+A quick demonstration followed by a more indepth tutorial on how to use these libraries.
+
+https://youtu.be/cetPEHgmATA
+
 # How to use Library files once you have them:
 
 - Drop into Godot's filesystem any Mixamo rigged model, (Preferabley exported in the base Tpose)
@@ -60,12 +67,6 @@ It's now mapped to the new character!
 DONE library now exists and it can be used on any skeleton that's been mapped in Godot
 
 ![Controller Screenshot](https://github.com/pemguin005/Godot4-MixamoLibraries/blob/main/Screenshots/Screenshot.jpg)
-
-## Tutorial
-
-A quick demonstration followed by a more indepth tutorial on how to use these libraries.
-
-https://youtu.be/cetPEHgmATA
 
 ## Background
 
