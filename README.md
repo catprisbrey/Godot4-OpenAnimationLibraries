@@ -6,7 +6,7 @@ Make reusable Mixamo animations libraries that can retarget other models in Godo
 ## UPDATE
 Adobe's terms of service 6.2.E state not to make datasets or databases from their content which this could be seen as. 
 To respect their service, I am removing the animations libraries and leaving only the Bone Map.
-Blow is a new tutorial showing how to make your own probject libraries for your own individual games.
+Below is a new tutorial showing how to make your own probject libraries for your own individual games.
 Perhaps we can make own community open library of open animations. If I create any, I will share them here.
 Thanks for your understanding.
 
