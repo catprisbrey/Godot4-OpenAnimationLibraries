@@ -12,7 +12,9 @@ Thanks for your understanding.
 
 ## Features
 
-Mixamo bone map res file, that can aid in making your own reusable libraries.
+- Mixamo bone map res file, that can aid in making your own reusable libraries.
+- OpenBot CC0 file, rigged with a GPL skeleton and Godot Bone map. 
+(Animations made with that bot can be applied to any models brought into godot with their skeletons mapped. Animating with it can aid us all in making libraries we can all use and share)
 
 ## Requirements
 - Godot 4.0.13 Alpha or newer
@@ -24,6 +26,11 @@ Mixamo bone map res file, that can aid in making your own reusable libraries.
 A quick demonstration followed by a more indepth tutorial on how to use these libraries.
 
 https://youtu.be/cetPEHgmATA
+
+## Concept
+
+Godot has an internal map for it's Skeletons. It's similar to Unity/Unreal's skeleton maps. To take advantage of re-using animations across models, you only need to map your own models skeleton into Godot with a bone map. This project provides a bone map for Mixamo, as well as an open bone map and OpenBot model to animate with. Animations made with it will be cross compaitble across all models with a mapped skeleton. Consider making aniatmions with that bot, turning them into libraries, and sharing them so we all can have a library of open animations to work from.
+
 
 # How to use Library files once you have them:
 
