@@ -1,0 +1,11 @@
+Lets build some animation libraries!
+
+This Bot is CC0 (I made it just now), and the metarig/game rig is GPL 3.0 license
+https://github.com/SAM-tak/BlenderGameRig
+
+It is perfectly compatible with Godot's bone remapping and other game engines
+and makes it ideal for creating open libraries of animations for sharing across
+our characters.
+
+If you build out any animations you'd like to share, please contribute here or
+reach out.
