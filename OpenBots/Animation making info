@@ -1,0 +1,10 @@
+Lets build some animation libraries!
+
+The OpenBot and OpenDog models are CC0 (I made them just now), and the metarig/game rig is GPL 3.0 license from this project.
+https://github.com/SAM-tak/BlenderGameRig
+
+They should be perfectly compatible with Godot's bone remapping features and aregreat for creating open libraries of animations for sharing across
+our characters and animals.
+
+If you build out any animations you'd like to share, please contribute here or
+reach out.
