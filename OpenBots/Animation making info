@@ -3,11 +3,14 @@ Lets build some animation libraries!
 The OpenBot and OpenDog models are CC0 (I made them just now), and the metarig/game rig is GPL 3.0 license from this project.
 https://github.com/SAM-tak/BlenderGameRig
 
-They should be perfectly compatible with Godot's bone remapping features and aregreat for creating open libraries of animations for sharing across
-our characters and animals.
+They should be perfectly compatible with Godot's bone remapping features.
 
-You can map the metarig bones to any character you make, and then in godot, use the OpenBot map when reimporting.
-The skeleton can then adopt the .res libraries.
+The OpenBot's skeleton should match very similarly to the Mixamo skeleton. This means animations made with either
+should work decently across models.
 
-If you want to build out your own animations, use the .blend file, you can make animations on the openbots using the control rig in pose mode.
-Those animations in godot we can turn into a library to reuse on any model.
+Feel free to use the the openbot.blend files to pose/animation and create animations.
+Import them into Godot using the bonemap file.
+'Save As' your animation libraries
+And share those libararies back here so we can all benefit.
+
+
