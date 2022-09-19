@@ -4,21 +4,22 @@ Make reusable Mixamo animations libraries that can retarget other models in Godo
 ![Controller Screenshot](https://github.com/pemguin005/Godot4-MixamoLibraries/blob/main/Screenshots/MixamoLib.GIF)
 
 ## UPDATE
-Adobe's terms of service 6.2.E state not to make datasets or databases from their content which this could be seen as. 
-To respect their service, I am removing the animations libraries and leaving only the Bone Map, but you can still make your own libraries!
-Thanks for your understanding.
+Adobe's terms of service 6.2.E state not to make datasets or databases from their content so libraries of their animations cannott be shared here. 
+To respect their service, all Mixamo animation libraries have been removed. I'm leaving only the Mixamo Godot Bone Map.tres, but you can still make your own Mixamo libraries!
+
+This project is now for creating open animation libraries that DO NOT USE Mixamo and can be used freely. The open libraries should be mixamo Skeleton compatible. So you can still rig your characters with Mixamo if you prefer, just be sure to reimport with the Mixamo bone map.
 
 ## Features
 
-- Mixamo bone map res file, that can aid in making your own reusable Mixamo animation libraries.
+- Mixamo bone map.tres file, that makes Godot ready Mixamo rigs/animation libraries an option.
 - OpenBot CC0 model files - for making open humaniod animations (OpenBot is Mixamo animation compatible)
 - OpenDog CC0 model files - for making open canine animations
-- Free locomotion Godot libraries 
+- Free/Open Godot animation libraries for humanoids and dog 
 
 ## Requirements
 - Godot 4.0.13 Alpha or newer
 - BoneMap.res file (for either the OpenBots or Mixamo)
-
+- A model rigged with either a Mixamo, OpenBot, or OpenDog skeleton
 
 # Tutorial
 
