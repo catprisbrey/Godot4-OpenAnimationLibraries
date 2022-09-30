@@ -1,9 +1,9 @@
 [gd_resource type="BoneMap" load_steps=2 format=3 uid="uid://ck8i8nfrcvc6s"]
 
-[sub_resource type="SkeletonProfileHumanoid" id="SkeletonProfileHumanoid_wv8is"]
+[sub_resource type="SkeletonProfileHumanoid" id="SkeletonProfileHumanoid_mpsai"]
 
 [resource]
-profile = SubResource("SkeletonProfileHumanoid_wv8is")
+profile = SubResource("SkeletonProfileHumanoid_mpsai")
 bonemap = null
 bone_map/Root = &""
 bone_map/Hips = &"hips"
