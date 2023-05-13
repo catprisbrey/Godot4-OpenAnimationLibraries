@@ -11,15 +11,18 @@ This project is now for creating open animation libraries that DO NOT USE Mixamo
 
 ## Features
 
-- Mixamo bone map.tres file, that makes Godot ready Mixamo rigs/animation libraries an option.
-- OpenBot CC0 model files - for making open humaniod animations (OpenBot is Mixamo animation compatible)
+- Mixamo bone map.tres file, for speedily mapping Mixamo skeletons
+- OpenBot MannyQuin CC0 model files - for making open humaniod animations (OpenBot is Mixamo animation compatible)
 - OpenDog CC0 model files - for making open canine animations
+
 - Free/Open Godot animation libraries for humanoids and dog 
 
+
 ## Requirements
-- Godot 4.0.13 Alpha or newer
-- BoneMap.res file (for either the OpenBots or Mixamo)
-- A model rigged with either a Mixamo, OpenBot, or OpenDog skeleton
+- Godot 4 stable
+- A model with a semi-standard skeleton (feel free to use the OpenBot MannyQuin, and reparent it)
+- The skeleton in Godot mapped to for your character.
+
 
 # Tutorial
 
@@ -29,14 +32,18 @@ https://youtu.be/cetPEHgmATA
 
 ## Concept
 
-Godot can retarget skeletons and animations. This means you can re-use animations, and animation libraries across models. To take advantage of this feature, always reimport your character skeleton with a bone map. This project provides a bone map for Mixamo rigged skeletons, as well as an open bone map and OpenBot model for animating. The OpenBot is cross-compatible with the Mixamo skeleton and animations-- but the Openbot is creative commons 0 license!  Any animations and libraries made on OpenBot is cross compaitble across all Mixamo models OpenBot mapped skeletons. Consider making aniatmions with the bot, turning them into libraries, and sharing them here so we all can benefit from an open library of open animations.
+Building sharable libarries to use across all your Godot characters, to mix and match as needed.
+
+Godot can retarget skeletons. So any skeleton, if mapped properly, (i recommend standard T poses, and standard game rig skeletons), can inherit animations from other models or even load entire library sets of animations that can be mixed and matched.
+
+An OpenBot MannyQuin blender file is provided here, as well as a bone map for it. If you make animations with it, and save them as a library, those libraries will be cross compatible with the Adobe Mixamo skeleton models, Unreal and unity models, and nearly any other model with a standard skeleton, whose bones have been mapped in Godot.
 
 
 # How to use Library files once you have them:
 
 - Drop into Godot's filesystem any Mixamo rigged model, or OpenBot rigged model (in the base Tpose for best results)
 - Double click the model to open the Re-import menu
-- Select the skeleton, and select the bone map drop down, and select the Mixamo or OpenBot bone map.
+- Select the skeleton, and select the bone map drop down, and select the Mixamo or OpenBot bone map if using MannyQuinn.
 - Drop this character model into scene, right click it and select "Make local".
 - Select their animation player, click Animation > Manage Animations > Load Library > and select a library.res
 
@@ -65,7 +72,7 @@ It's now mapped to the new character!
 ## 3. Steps in Godot
 - Bring .GLB into Godot filesystem
 - Re-import, click "Skeleton3d", bone map drop down, load mixamo bone map.res.
-- Drop the .glb into the scene, transfom 0,0,0,
+- Drop the .glb into the scene, transfom 0,0,0 as needed.
 - Right click > Make Local, Save as scene.
 - Go to animation player, (test if you want that it works).
 - Click Animation > Manage Animations
