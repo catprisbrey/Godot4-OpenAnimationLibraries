@@ -1,6 +1,6 @@
 UPDATE:
 
-Use this blend file, and openbot to create animations, onc imported into godot, it's bones are easily mapped and it's animation libraries easily exported out for use with other models. Compaitbility comfirmed to work well with Mixamo skeletons mapped into Godot as well.
+Use the MannyQuin blend file, and openbot inside to create animations, onc imported into godot, it's bones are easily mapped and it's animation libraries easily exported out for use with other models. Compaitbility comfirmed to work well with Mixamo skeletons mapped into Godot as well.
 
 
 
