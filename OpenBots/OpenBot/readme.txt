@@ -1,3 +1,11 @@
+UPDATE:
+
+Use this blend file, and openbot to create animations, onc imported into godot, it's bones are easily mapped and it's animation libraries easily exported out for use with other models. Compaitbility comfirmed to work well with Mixamo skeletons mapped into Godot as well.
+
+
+
+OLD INFO:
+
 Import the FBX into your project.
 Delete the OpenBotMesh
 Resize the open bones to match your character mesh.
