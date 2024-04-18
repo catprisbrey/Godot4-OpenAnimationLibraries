@@ -1,0 +1,41 @@
+[gd_resource type="BoneMap" load_steps=2 format=3 uid="uid://cesdf5vk2eles"]
+
+[ext_resource type="SkeletonProfile" uid="uid://cnynttloymqsm" path="res://CatsSkeletonProfileBuilder/felid_profile.tres" id="1_xo6av"]
+
+[resource]
+profile = ExtResource("1_xo6av")
+bonemap = null
+bone_map/root = &"root"
+bone_map/hips = &"DEF-hips"
+bone_map/spine.001 = &"DEF-spine.001"
+bone_map/spine.002 = &"DEF-spine.002"
+bone_map/spine.003 = &"DEF-spine.003"
+bone_map/neck = &"DEF-neck"
+bone_map/head = &"DEF-head"
+bone_map/jaw = &"DEF-jaw"
+bone_map/ear.L = &"DEF-ear.L"
+bone_map/ear.R = &"DEF-ear.R"
+bone_map/shoulder.L = &"DEF-shoulder.L"
+bone_map/upper_arm.L = &"DEF-upper_arm.L"
+bone_map/forearm.L = &"DEF-forearm.L"
+bone_map/hands.L = &"DEF-hands.L"
+bone_map/fingers.L = &"DEF-fingers.L"
+bone_map/shoulder.R = &"DEF-shoulder.R"
+bone_map/upper_arm.R = &"DEF-upper_arm.R"
+bone_map/forearm.R = &"DEF-forearm.R"
+bone_map/hands.R = &"DEF-hands.R"
+bone_map/fingers.R = &"DEF-fingers.R"
+bone_map/tail = &"DEF-tail"
+bone_map/tail.001 = &"DEF-tail.001"
+bone_map/tail.002 = &"DEF-tail.002"
+bone_map/tail.003 = &"DEF-tail.003"
+bone_map/tail.004 = &"DEF-tail.004"
+bone_map/tail.005 = &"DEF-tail.005"
+bone_map/thigh.L = &"DEF-thigh.L"
+bone_map/shin.L = &"DEF-shin.L"
+bone_map/feet.L = &"DEF-feet.L"
+bone_map/toes.L = &"DEF-toes.L"
+bone_map/thigh.R = &"DEF-thigh.R"
+bone_map/shin.R = &"DEF-shin.R"
+bone_map/feet.R = &"DEF-feet.R"
+bone_map/toes.R = &"DEF-toes.R"
