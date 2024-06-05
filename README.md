@@ -7,20 +7,18 @@ Make reusable Mixamo animations libraries that can retarget other models in Godo
 Adobe's terms of service 6.2.E state not to make datasets or databases from their content so libraries of their animations cannott be shared here. 
 To respect their service, all Mixamo animation libraries have been removed. I'm leaving only the Mixamo Godot Bone Map.tres, but you can still make your own Mixamo libraries!
 
-This project is now for creating open animation libraries that DO NOT USE Mixamo and can be used freely. The open libraries should be mixamo Skeleton compatible. So you can still rig your characters with Mixamo if you prefer, just be sure to reimport with the Mixamo bone map.
+This project is now for creating open animation libraries that DO NOT USE Mixamo and can be used freely. The open libraries should be mixamo Skeleton compatible. So you can still rig your characters with Mixamo if you prefer, just be sure to reimport with a/the Mixamo bone map in Godot.
 
 ## Features
 
-- Mixamo bone map.tres file, for speedily mapping Mixamo skeletons
-- OpenBot MannyQuin CC0 model files - for making open humaniod animations (OpenBot is Mixamo animation compatible)
-- OpenDog CC0 model files - for making open canine animations
+A handful of different animation libraries for a variety of scenarios and body types.
 
-- Free/Open Godot animation libraries for humanoids and dog 
+
 
 
 ## Requirements
 - Godot 4 stable
-- A model with a semi-standard skeleton (feel free to use the OpenBot MannyQuin, and reparent it)
+- A model with a semi-standard skeleton (Adobe's Mixamo tool can give you a game-ready skeleton, as well as a variety of blender plugins. I maintain a repository for a Blender plug-in called Rigidoify which will also give you game ready. humanoid, canid, equid, and felid skeletons based off the rigify control rig: https://github.com/catprisbrey/Rigodotify)
 - The skeleton in Godot mapped to for your character.
 
 
@@ -32,22 +30,20 @@ https://youtu.be/cetPEHgmATA
 
 ## Concept
 
-Building sharable libarries to use across all your Godot characters, to mix and match as needed.
+Building sharable libaries to use across all your Godot characters, to mix and match as needed.
 
 Godot can retarget skeletons. So any skeleton, if mapped properly, (i recommend standard T poses, and standard game rig skeletons), can inherit animations from other models or even load entire library sets of animations that can be mixed and matched.
-
-An OpenBot MannyQuin blender file is provided here, as well as a bone map for it. If you make animations with it, and save them as a library, those libraries will be cross compatible with the Adobe Mixamo skeleton models, Unreal and unity models, and nearly any other model with a standard skeleton, whose bones have been mapped in Godot.
 
 
 # How to use Library files once you have them:
 
-- Drop into Godot's filesystem any Mixamo rigged model, or OpenBot rigged model (in the base Tpose for best results)
+- Drop into Godot's filesystem any Mixamo rigged model, or game dev skeleton rigged model (in the base Tpose for best results)
 - Double click the model to open the Re-import menu
-- Select the skeleton, and select the bone map drop down, and select the Mixamo or OpenBot bone map if using MannyQuinn.
-- Drop this character model into scene, right click it and select "Make local".
+- Select the skeleton, and select the bone map drop down, and select the Mixamo bone map, or map your own bones manually if using a different skeleton.
+- Drop you character model into scene
 - Select their animation player, click Animation > Manage Animations > Load Library > and select a library.res
 
-It's now mapped to the new character!
+It's now mapped to the new character! If you had a proper skeleton compa that was properly mapped at import, then all the animations should work properly.
 
 # How to create your own library files with Mixamo characters:
 
@@ -89,4 +85,4 @@ https://www.youtube.com/watch?v=NBukd3NmK88
 
 ## Support
 
-Support me by checking out my music at https://bonesinthewalls.bandcamp.com, https://open.spotify.com/artist/3eKiNBKa9Jel0Ev98hcZll?si=dX0koLvrSWarOkSMaEmbmg, or searching "Bones in the Walls" where ever you stream music.
+Support me by checking out my dev projects here or on https://catprisbrey.itch.io/character-idea-generator or my music at https://bonesinthewalls.bandcamp.com, https://open.spotify.com/artist/3eKiNBKa9Jel0Ev98hcZll?si=dX0koLvrSWarOkSMaEmbmg, or searching "Bones in the Walls" where ever you stream music.
