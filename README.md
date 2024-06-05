@@ -1,4 +1,4 @@
-# Godot4-MixamoLibraries
+# Godot4-OpenAnimationLibraries
 Make reusable Mixamo animations libraries that can retarget other models in Godot 4
 
 ![Controller Screenshot](https://github.com/pemguin005/Godot4-MixamoLibraries/blob/main/Screenshots/MixamoLib.GIF)
