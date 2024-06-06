@@ -5,7 +5,7 @@ Make reusable Mixamo animations libraries that can retarget other models in Godo
 
 ## UPDATE
 Adobe's terms of service 6.2.E state not to make datasets or databases from their content so libraries of their animations cannott be shared here. 
-To respect their service, all Mixamo animation libraries have been removed. I'm leaving only the Mixamo Godot Bone Map.tres, but you can still make your own Mixamo libraries!
+To respect their service, all Mixamo animation libraries have been removed. I'm only storing open, user-created libraries now. Although I'll leave the Mixamo Godot Bone Map.tres, so if you make your own libraries they'll map to Godot easily!
 
 This project is now for creating open animation libraries that DO NOT USE Mixamo and can be used freely. The open libraries should be mixamo Skeleton compatible. So you can still rig your characters with Mixamo if you prefer, just be sure to reimport with a/the Mixamo bone map in Godot.
 
