@@ -17,7 +17,7 @@ In order to use these you need a 3D model with the following:
 ### 1. Import Your Model
 
 1. Prepare your model by giving it a standard skeleton, and adding one animation to it (a tpose works perfectly here). 
-2. Import your model into godot, and open the advanced import menu for it.
+2. Import your model into Godot, and open the advanced import menu for it.
 3. Select the Skeleton, and click the drop down to add a new bone map.
 4. Select the Profile dropdown, and add a new Humanoid Profile
 
@@ -31,18 +31,18 @@ The bone map must show green dots for every bone. Each bone must be the correct 
 #
  The bone map must show green dots for every bone. Each bone must be the correct bone or this whole process will fail. DO NOT ASSUME it's mapped prpoerly because you see green dots. 
 
-### 3. Add an Animation Libarary to Your Model
+### 3. Add an Animation Library to Your Model
 1. Open your model in Godot (either as it's own saved scene, added into another scene with 'make local' or expanded with 'editable children. We just need to access it's child nodes.)
 2. Select its AnimationPlayer (if it doesn't have one, see section 1, step 1.)
 3. Click the button "Animation", and "Manage Animations". (If you want to make your own library file, and not just add to this one, skip now to section 4)
 4. Click the button "Add Library", and select one of the library files from this repo, or one you have made.
 5. Enjoy all the animations! You're done!
 
-### 4. Making your own Libary files
+### 4. Making your own Library files
 If you're own model has animations you'd like to pass to other models, complete sections 1-3:3
 
 1. Go to the in the "Animation", "Manage Animations" menu.
-2. Double click the animation collection and give it a name (defaults to "Global" but name it something more discernable to tell your library files part later on)
+2. Double click the animation collection and give it a name (defaults to "Global" but name it something more discernible to tell your library files part later on)
 3. To the right of the collection, click the Save Icon.
 4. Select, "Make Unique" then click the icon again and select "Save As"
 5. Save your library file, and consider donating/sharing the animations to this project!
@@ -53,7 +53,7 @@ Now for any models with a standard skeleton you can follow sections 1-3 to give 
 
 #### What is a "standard game dev skeleton?"
 
-A heirarchal bone structure, where the bones are properly all in a parent/child chain through the whole body. This makes IKs work properly in game engines, and is why Unity, Godot, Unreal, Mixamo, and many other softwares encourage you use a game dev skeleton. Blender's Rigify does NOT give you a game dev skeleton.
+A hierarchical bone structure, where the bones are properly all in a parent/child chain through the whole body. This makes IKs work properly in game engines, and is why Unity, Godot, Unreal, Mixamo, and many other softwares encourage you use a game dev skeleton. Blender's Rigify does NOT give you a game dev skeleton.
 
 #### Where can I get a game dev skeleton?
 
@@ -61,9 +61,9 @@ A heirarchal bone structure, where the bones are properly all in a parent/child 
 
 - Rigodotify is a free tool I made that uses Blender's Rigify as a base, but ensures the skeleton is game ready.
 
-- Make your own skeleton and rig in whatever softare you like
+- Make your own skeleton and rig in whatever software you like
 
-- Use any other software that produces a heirarchical bone structure.
+- Use any other software that produces a hierarchical bone structure.
 
 
 #### Only some of my body is animating correctly! Why?
@@ -72,7 +72,7 @@ A heirarchal bone structure, where the bones are properly all in a parent/child 
 
 
 #### Root Motion is action weird! Why?
-- Does your model have a root bone? some folks don't notice, and they bring in a model without a root bone, and try to use the hips for root motion. This can get really buggy and may not work as expected. If your model doesn't have a root bone, it's not hard to add one. Load youtube and search for how to add a root bone. (eseentially parent your whole deform skeleton rig to a new bone named "root", and ensure "deform bone" is checked so it exports properly)
+- Does your model have a root bone? some folks don't notice, and they bring in a model without a root bone, and try to use the hips for root motion. This can get really buggy and may not work as expected. If your model doesn't have a root bone, it's not hard to add one. Load youtube and search for how to add a root bone. (essentially parent your whole deform skeleton rig to a new bone named "root", and ensure "deform bone" is checked so it exports properly)
 
 #### Your Mixamo bone map is faulty and didn't work for me, WHY??
 
