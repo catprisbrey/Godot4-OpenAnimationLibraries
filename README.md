@@ -2,7 +2,7 @@
 
 Ready-to-use animation libraries and bone maps for the Godot 4.x Game Engine
 
-![Follow my video](https://youtu.be/zCvCHO6sk3Y?si=fI14xx4r1BYQRrnn) here for more information and a bit of walkthrough. I have many videos on this topic.
+![Watch my video](https://youtu.be/zCvCHO6sk3Y?si=fI14xx4r1BYQRrnn) here for more information and a bit of walkthrough. I have many videos on this topic.
 
 
 
